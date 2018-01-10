@@ -1522,7 +1522,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 3.15 1.9 270) (size 1.7 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/TL3342FxxxQG.stp
+    (model ${KIPRJMOD}/3d_models/TL3342FxxxQG.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1714,7 +1714,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 3.15 1.9 270) (size 1.7 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/TL3342FxxxQG.stp
+    (model ${KIPRJMOD}//3d_models/TL3342FxxxQG.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2330,7 +2330,7 @@
     (pad "" np_thru_hole circle (at 0 10.5 270) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
     (pad 3 smd rect (at -3.7 2.4 270) (size 2.8 2.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/sj-3523-smt.stp
+    (model ${KIPRJMOD}/3d_models/sj-3523-smt.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -2393,7 +2393,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 1.27 4.38 90) (size 0.89 0.46) (layers B.Cu)
       (net 2 GND))
-    (model ${KIPRJMOD}/901-10003_REV-A.igs
+    (model ${KIPRJMOD}/3d_models/901-10003_REV-A.igs
       (offset (xyz 0 0 0.2999999954944519))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 180 0))
