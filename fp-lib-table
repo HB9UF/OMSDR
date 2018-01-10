@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name local)(type KiCad)(uri "$(KIPRJMOD)/local.pretty")(options "")(descr ""))
+  (lib (name IPC7351-Most)(type KiCad)(uri "$(KIPRJMOD)/kicad-pcblib/IPC7351-Most.pretty")(options "")(descr ""))
+  (lib (name mech)(type KiCad)(uri "$(KIPRJMOD)/kicad-pcblib/mech.pretty")(options "")(descr ""))
+)
