@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 167)
+    (drawings 169)
     (tracks 429)
     (zones 0)
     (modules 55)
@@ -2494,6 +2494,8 @@
     )
   )
 
+  (gr_line (start 122.75 60.25) (end 125.75 60.25) (layer B.SilkS) (width 0.2) (tstamp 5A647D70))
+  (gr_line (start 119.75 60.25) (end 122.75 60.25) (layer B.SilkS) (width 0.2) (tstamp 5A647D6F))
   (gr_text . (at 123.1 77.9) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
