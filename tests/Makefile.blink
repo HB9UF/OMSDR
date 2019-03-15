@@ -1,6 +1,6 @@
 NAME            = blink
 OBJECTS         = blink.o
-CPU             = attiny44
+CPU             = attiny24
 
 CFLAGS          = -mmcu=${CPU} -Os -Wall -std=gnu99 -D F_CPU=1000000UL
 
