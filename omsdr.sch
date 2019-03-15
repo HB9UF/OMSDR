@@ -27,7 +27,7 @@ F 4 "DIST DIGIKEY CON-SMA-EDGE-S-ND " H 1000 2450 50  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C6
+L Device:C C6
 U 1 1 5A049F14
 P 1650 2450
 F 0 "C6" V 1500 2450 50  0000 C CNN
@@ -39,7 +39,7 @@ F 4 "CAP MLCC 110p ±5% NP0 [1206]" V 1650 2450 50  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C8
+L Device:C C8
 U 1 1 5A049F8F
 P 2500 2650
 F 0 "C8" H 2615 2696 50  0000 L CNN
@@ -51,7 +51,7 @@ F 4 "CAP MLCC 1500p  ±5% NP0 [1206]" H 2500 2650 50  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L1
+L Device:L L1
 U 1 1 5A04A010
 P 2150 2450
 F 0 "L1" V 1972 2450 50  0000 C CNN
@@ -96,7 +96,7 @@ F 3 "" H 2900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Transformer_1P_SS T1
+L Device:Transformer_1P_SS T1
 U 1 1 5A04A23A
 P 3300 2650
 F 0 "T1" H 3300 2300 50  0000 C CNN
@@ -117,11 +117,9 @@ Connection ~ 2500 2450
 Wire Wire Line
 	2000 2450 1800 2450
 Wire Wire Line
-	1500 2450 1150 2450
-Wire Wire Line
 	1000 2650 1000 2900
 $Comp
-L onsemi:FST3253 U2
+L omsdr-rescue:FST3253-onsemi U2
 U 1 1 5A04A0A1
 P 6950 2800
 F 0 "U2" H 6950 3725 50  0000 C CNN
@@ -135,7 +133,7 @@ $EndComp
 Wire Wire Line
 	2500 2800 2500 2900
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5A04A538
 P 4200 1650
 F 0 "R1" H 4270 1696 50  0000 L CNN
@@ -147,7 +145,7 @@ F 4 "RES SMD 1k 1% [1206]" H 4200 1650 50  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L Device:R R2
 U 1 1 5A04A5AB
 P 4200 2050
 F 0 "R2" H 4270 2096 50  0000 L CNN
@@ -221,7 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2850 5650 2850
 $Comp
-L linear:LT6233 U1
+L omsdr-rescue:LT6233-linear U1
 U 1 1 5A04AECD
 P 9050 3650
 F 0 "U1" H 9150 3500 50  0000 L CNN
@@ -362,7 +360,7 @@ Vhalf
 Text Label 8700 2150 2    60   ~ 0
 Vhalf
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5A04CCC8
 P 8400 3750
 F 0 "R4" V 8300 3750 50  0000 C CNN
@@ -374,7 +372,7 @@ F 4 "RES SMD 49.9 1% [1206]" V 8400 3750 50  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5A04CE0B
 P 8400 2350
 F 0 "R9" V 8300 2350 50  0000 C CNN
@@ -394,7 +392,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 2350 8600 2350
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5A04D20D
 P 9150 1800
 F 0 "C2" H 9265 1846 50  0000 L CNN
@@ -577,7 +575,7 @@ Wire Wire Line
 	5950 2850 6250 2850
 Connection ~ 6250 2850
 $Comp
-L omsdr-rescue:Si5351A-RESCUE-omsdr U4
+L silabs:Si5351A U4
 U 1 1 5A0528DB
 P 6900 5050
 F 0 "U4" H 6900 5565 50  0000 C CNN
@@ -590,7 +588,7 @@ F 4 "DIST DIGIKEY 336-3908-1-ND" H 6900 4400 50  0001 C CNN "BOM"
 $EndComp
 NoConn ~ 7500 5000
 $Comp
-L device:Crystal_Small X1
+L Device:Crystal_Small X1
 U 1 1 5A052EA0
 P 7700 5200
 F 0 "X1" H 7700 5300 50  0000 C CNN
@@ -768,7 +766,7 @@ $EndComp
 Wire Wire Line
 	1700 5100 1700 5150
 $Comp
-L device:C C14
+L Device:C C14
 U 1 1 5A05A413
 P 1000 4950
 F 0 "C14" H 1115 4996 50  0000 L CNN
@@ -815,7 +813,7 @@ Wire Wire Line
 	6200 4900 6300 4900
 Connection ~ 6200 4800
 $Comp
-L device:C C9
+L Device:C C9
 U 1 1 5A05507D
 P 8000 2500
 F 0 "C9" H 8115 2546 50  0000 L CNN
@@ -838,7 +836,7 @@ F 3 "" H 8000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L Device:C C7
 U 1 1 5A05515B
 P 8000 3100
 F 0 "C7" H 8115 3146 50  0000 L CNN
@@ -863,7 +861,7 @@ $EndComp
 Connection ~ 8000 2350
 Connection ~ 8000 2950
 $Comp
-L device:C C5
+L Device:C C5
 U 1 1 5A0576CE
 P 9600 3650
 F 0 "C5" V 9650 3750 50  0000 C CNN
@@ -875,7 +873,7 @@ F 4 "CAP MLCC 0.1u  ±10% ≥X7R [1206]" V 9600 3650 50  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C11
+L Device:C C11
 U 1 1 5A05777E
 P 9600 2250
 F 0 "C11" V 9650 2350 50  0000 C CNN
@@ -887,7 +885,7 @@ F 4 "CAP MLCC 0.1u  ±10% ≥X7R [1206]" V 9600 2250 50  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5A0578C6
 P 10000 3650
 F 0 "R3" V 9900 3650 50  0000 C CNN
@@ -899,7 +897,7 @@ F 4 "RES SMD 100 1% [1206]" V 10000 3650 50  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 5A057990
 P 10000 2250
 F 0 "R8" V 9900 2250 50  0000 C CNN
@@ -921,7 +919,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 3650 10400 3650
 $Comp
-L Mechanical:Mounting_Hole_PAD MH1
+L Mechanical:MountingHole_Pad MH1
 U 1 1 5A0577BA
 P 1400 6900
 F 0 "MH1" H 1400 7100 50  0000 C CNN
@@ -932,7 +930,7 @@ F 3 "" H 1400 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MH2
+L Mechanical:MountingHole_Pad MH2
 U 1 1 5A057FC9
 P 1800 6900
 F 0 "MH2" H 1800 7100 50  0000 C CNN
@@ -943,7 +941,7 @@ F 3 "" H 1800 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MH3
+L Mechanical:MountingHole_Pad MH3
 U 1 1 5A0580BB
 P 2200 6900
 F 0 "MH3" H 2200 7100 50  0000 C CNN
@@ -954,7 +952,7 @@ F 3 "" H 2200 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MH4
+L Mechanical:MountingHole_Pad MH4
 U 1 1 5A0580C1
 P 2600 6900
 F 0 "MH4" H 2600 7100 50  0000 C CNN
@@ -1039,7 +1037,7 @@ F 3 "" H 1000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D1
+L Device:LED D1
 U 1 1 5A06BFEC
 P 3650 4100
 F 0 "D1" V 3688 3983 50  0000 R CNN
@@ -1051,7 +1049,7 @@ F 4 "DIST DIGIKEY 732-4984-1-ND" V 3650 4100 50  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R11
+L Device:R R11
 U 1 1 5A06C30F
 P 3650 3800
 F 0 "R11" V 3550 3800 50  0000 C CNN
@@ -1074,7 +1072,7 @@ F 3 "" H 3650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D2
+L Device:LED D2
 U 1 1 5A06CB4A
 P 4100 4100
 F 0 "D2" V 4138 3983 50  0000 R CNN
@@ -1086,7 +1084,7 @@ F 4 "DIST DIGIKEY 732-4984-1-ND" V 4100 4100 50  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 5A06CB50
 P 4100 3800
 F 0 "R12" V 4000 3800 50  0000 C CNN
@@ -1109,7 +1107,7 @@ F 3 "" H 4100 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D3
+L Device:LED D3
 U 1 1 5A06CCB4
 P 4500 4100
 F 0 "D3" V 4538 3983 50  0000 R CNN
@@ -1121,7 +1119,7 @@ F 4 "DIST DIGIKEY 732-4984-1-ND" V 4500 4100 50  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R13
+L Device:R R13
 U 1 1 5A06CCBA
 P 4500 3800
 F 0 "R13" V 4400 3800 50  0000 C CNN
@@ -1144,7 +1142,7 @@ F 3 "" H 4500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D4
+L Device:LED D4
 U 1 1 5A06CCC6
 P 4950 4100
 F 0 "D4" V 4988 3983 50  0000 R CNN
@@ -1156,7 +1154,7 @@ F 4 "DIST DIGIKEY 732-4984-1-ND" V 4950 4100 50  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R14
+L Device:R R14
 U 1 1 5A06CCCC
 P 4950 3800
 F 0 "R14" V 4850 3800 50  0000 C CNN
@@ -1255,7 +1253,7 @@ Wire Wire Line
 	6200 6700 6350 6700
 Connection ~ 6350 7000
 $Comp
-L linear:LT6233 U1
+L omsdr-rescue:LT6233-linear U1
 U 2 1 5A06216D
 P 9000 2250
 F 0 "U1" H 9100 2100 50  0000 L CNN
@@ -1311,7 +1309,7 @@ F 3 "" H 2600 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J4
+L Connector_Generic:Conn_01x03 J4
 U 1 1 5A069F9E
 P 8100 4150
 F 0 "J4" H 8019 3825 50  0000 C CNN
@@ -1339,7 +1337,7 @@ Wire Wire Line
 	7900 4050 7750 4050
 Connection ~ 7750 4050
 $Comp
-L Connector:Audio-Jack-3 J1
+L omsdr-rescue:Audio-Jack-3-Connector J1
 U 1 1 5A050DB8
 P 10600 2250
 F 0 "J1" H 10577 2575 50  0000 C CNN
@@ -1413,7 +1411,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 6000 4850 6000
 $Comp
-L atmel:ATTINY24-20SSU U5
+L omsdr-rescue:ATTINY24-20SSU-atmel U5
 U 1 1 5A5637E0
 P 3800 5400
 F 0 "U5" H 3800 6267 50  0000 C CNN
@@ -1439,7 +1437,7 @@ Wire Wire Line
 NoConn ~ 4850 5800
 NoConn ~ 4850 5700
 $Comp
-L regul:MCP1703A-3302_SOT89 U3
+L Regulator_Linear:MCP1703A-3302_SOT89 U3
 U 1 1 5A5FA826
 P 1700 4800
 F 0 "U3" H 1700 5042 50  0000 C CNN
@@ -1450,4 +1448,6 @@ F 4 "DIST DIGIKEY 497-17585-1-ND" H 1700 4800 50  0001 C CNN "BOM"
 	1    1700 4800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1200 2450 1500 2450
 $EndSCHEMATC
