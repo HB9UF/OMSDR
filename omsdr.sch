@@ -119,7 +119,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 2650 1000 2900
 $Comp
-L omsdr-rescue:FST3253-onsemi U2
+L onsemi:FST3253 U2
 U 1 1 5A04A0A1
 P 6950 2800
 F 0 "U2" H 6950 3725 50  0000 C CNN
