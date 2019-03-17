@@ -20,7 +20,7 @@ U 1 1 5A049E90
 P 1000 2450
 F 0 "J2" H 1100 2426 50  0000 L CNN
 F 1 "ANT" H 1100 2335 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1000 2450 50  0001 C CNN
+F 2 "local:SMA_edge_mount_small" H 1000 2450 50  0001 C CNN
 F 3 "" H 1000 2450 50  0001 C CNN
 	1    1000 2450
 	-1   0    0    -1  
