@@ -1393,7 +1393,7 @@ OMSDR Rev. 1.1
 Text Notes 4700 1050 0    197  ~ 39
 An SMD soldering practice kit for hams.
 Text Notes 8050 6250 0    118  ~ 0
-Design by Matt Weyland (HB9FRV)\nand Peter Klaentschi (HB9HY)\n\nBased on work by Tony Parks\n(c) 2017, CC-BY-SA
+Design by Matt Weyland (HB9FRV)\nand Peter Klaentschi (HB9HY)\n\nBased on work by Tony Parks\n(c) 2017,18,19, CC-BY-SA
 Wire Wire Line
 	4850 4800 5250 4800
 Wire Wire Line
