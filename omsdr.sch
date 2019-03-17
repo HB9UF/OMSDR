@@ -535,8 +535,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 3100 9050 3100
 Connection ~ 9350 2900
-Wire Wire Line
-	10400 3650 10400 2700
 Connection ~ 9350 2250
 Connection ~ 9350 3650
 $Comp
@@ -906,8 +904,6 @@ F 4 "RES SMD 100 1% [1206]" V 10000 2250 50  0001 C CNN "BOM"
 	1    10000 2250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10400 2250 10200 2250
 Wire Wire Line
 	9850 3650 9750 3650
 Wire Wire Line
@@ -1464,35 +1460,45 @@ Wire Wire Line
 	2400 2450 2150 2450
 Connection ~ 2150 2450
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J5
 U 1 1 5C938B4E
-P 10000 2700
-F 0 "J?" H 9920 2467 50  0000 C CNN
-F 1 "I/Q Out" H 9920 2466 50  0001 C CNN
-F 2 "" H 10000 2700 50  0001 C CNN
-F 3 "~" H 10000 2700 50  0001 C CNN
-	1    10000 2700
-	-1   0    0    1   
+P 10000 2900
+F 0 "J5" H 9920 2667 50  0000 C CNN
+F 1 "I/Q Out" H 9920 2666 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10000 2900 50  0001 C CNN
+F 3 "~" H 10000 2900 50  0001 C CNN
+	1    10000 2900
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	10200 2600 10200 2250
-Connection ~ 10200 2250
-Wire Wire Line
-	10200 2250 10150 2250
-Wire Wire Line
-	10200 2700 10400 2700
-Connection ~ 10400 2700
-Wire Wire Line
-	10400 2700 10400 2350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5C943FB5
-P 10200 2800
-F 0 "#PWR?" H 10200 2550 50  0001 C CNN
-F 1 "GND" H 10205 2627 50  0000 C CNN
-F 2 "" H 10200 2800 50  0001 C CNN
-F 3 "" H 10200 2800 50  0001 C CNN
-	1    10200 2800
-	1    0    0    -1  
+P 10000 2500
+F 0 "#PWR0101" H 10000 2250 50  0001 C CNN
+F 1 "GND" H 10005 2327 50  0000 C CNN
+F 2 "" H 10000 2500 50  0001 C CNN
+F 3 "" H 10000 2500 50  0001 C CNN
+	1    10000 2500
+	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	10400 2350 10400 3000
+Wire Wire Line
+	10150 2250 10300 2250
+Wire Wire Line
+	10000 2500 10200 2500
+Wire Wire Line
+	10200 2500 10200 2800
+Wire Wire Line
+	10200 3000 10400 3000
+Connection ~ 10400 3000
+Wire Wire Line
+	10400 3000 10400 3650
+Wire Wire Line
+	10200 2900 10300 2900
+Wire Wire Line
+	10300 2900 10300 2250
+Connection ~ 10300 2250
+Wire Wire Line
+	10300 2250 10400 2250
 $EndSCHEMATC
