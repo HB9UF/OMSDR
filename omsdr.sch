@@ -1386,7 +1386,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 4050 7750 4900
 Text Notes 750  1050 0    295  ~ 59
-OMSDR Rev. 1.1
+OMSDR Rev. 1.2
 Text Notes 4700 1050 0    197  ~ 39
 An SMD soldering practice kit for hams.
 Text Notes 8050 6250 0    118  ~ 0
