@@ -2476,6 +2476,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3d_models/sj-3523-smt.stp"
+      (offset (xyz 0 6 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
