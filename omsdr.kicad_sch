@@ -2110,7 +2110,7 @@
     (property "Datasheet" "" (id 3) (at 25.4 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "BOM" " CON-SMA-EDGE-S-ND " (id 4) (at 25.4 62.23 0)
+    (property "BOM" "DIST DIGIKEY CON-SMA-EDGE-S-ND " (id 4) (at 25.4 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 128f9f60-5d3c-4d0e-801f-d569bc619222))
