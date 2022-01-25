@@ -2235,7 +2235,7 @@
     (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
     (uuid 051b8cb0-ae77-4e09-98a7-bf2103319e66)
   )
-  (text "Design by Matt Weyland (HB9FRV)\n\nBased on work by Tony Parks\n(c) 2017,18,19, CC-BY-SA"
+  (text "Design by Matt Weyland (HB9FRV)\n\nBased on work by Tony Parks\n(c) 2017,18,19,22 CC-BY-SA"
     (at 204.47 158.75 0)
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 35c09d1f-2914-4d1e-a002-df30af772f3b)

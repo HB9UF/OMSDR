@@ -3757,7 +3757,7 @@
   (gr_line (start 102.5 50) (end 147.5 50) (layer "Edge.Cuts") (width 0.15) (tstamp a7c83b25-afbd-4974-8870-387db8f81a5c))
   (gr_line (start 147.5 100) (end 102.5 100) (layer "Edge.Cuts") (width 0.15) (tstamp b1731e91-7698-42fa-ad60-5c60fdd0e1fc))
   (gr_arc (start 102.5 100) (mid 100.732233 99.267767) (end 100 97.5) (layer "Edge.Cuts") (width 0.15) (tstamp f8a90052-1a8b-4ce5-a1fd-87db944dceac))
-  (gr_text "Based on work by T. Parks\n(c) 2017,18,19 CC-BY-SA" (at 148 89.25) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005a31fd6a)
+  (gr_text "Based on work by T. Parks\n(c) 2017,18,19,22 CC-BY-SA" (at 148 89.25) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005a31fd6a)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "by Matt Weyland\nHB9FRV, Rev. 1.2" (at 148 85) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005c8e6fc5)
