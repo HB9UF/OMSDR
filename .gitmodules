@@ -1,7 +1,3 @@
-[submodule "kicad-schlib"]
-	path = kicad-schlib
-	url = https://github.com/cpavlina/kicad-schlib.git
-	branch = master
 [submodule "kicad-pcblib"]
 	path = kicad-pcblib
 	url = https://github.com/cpavlina/kicad-pcblib.git
