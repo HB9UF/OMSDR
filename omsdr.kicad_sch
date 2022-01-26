@@ -2685,7 +2685,7 @@
     (uuid 00000000-0000-0000-0000-00005a052ea0)
     (property "Reference" "X1" (id 0) (at 149.225 128.905 90))
     (property "Value" "25 MHz" (id 1) (at 146.685 131.445 90))
-    (property "Footprint" "Crystals:Crystal_SMD_HC49-SD" (id 2) (at 153.035 129.54 0)
+    (property "Footprint" "Crystal:Crystal_SMD_HC49-SD" (id 2) (at 153.035 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 153.035 129.54 0)
@@ -4170,7 +4170,7 @@
       (reference "U5") (unit 1) (value "ATtiny24-20SS") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005a052ea0"
-      (reference "X1") (unit 1) (value "25 MHz") (footprint "Crystals:Crystal_SMD_HC49-SD")
+      (reference "X1") (unit 1) (value "25 MHz") (footprint "Crystal:Crystal_SMD_HC49-SD")
     )
   )
 )
