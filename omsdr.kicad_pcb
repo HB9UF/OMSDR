@@ -2532,7 +2532,7 @@
       (net 8 "Net-(C11-Pad1)") (pintype "output") (tstamp cec4ca46-4af7-4451-b816-cd8e0824f9bc))
     (pad "8" smd roundrect locked (at 2.575 -1.905 270) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "+5V") (pinfunction "V+") (pintype "power_in") (tstamp 47c452ed-5de3-4e40-b32f-53f6a81a5855))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
