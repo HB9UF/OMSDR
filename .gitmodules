@@ -1,11 +1,3 @@
-[submodule "kicad-schlib"]
-	path = kicad-schlib
-	url = https://github.com/cpavlina/kicad-schlib.git
-	branch = master
-[submodule "kicad-pcblib"]
-	path = kicad-pcblib
-	url = https://github.com/cpavlina/kicad-pcblib.git
-	branch = master
 [submodule "tests/si5351-avr-tiny-minimal"]
 	path = tests/si5351-avr-tiny-minimal
 	url = https://github.com/etherkit/si5351-avr-tiny-minimal.git
