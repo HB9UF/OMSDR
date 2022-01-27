@@ -2010,7 +2010,7 @@
   )
   (text "Design by Matt Weyland (HB9FRV)\n\nBased on work by Tony Parks\n(c) 2017,18,19,22 CC-BY-SA"
     (at 204.47 158.75 0)
-    (effects (font (size 2.9972 2.9972)) (justify left bottom))
+    (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 35c09d1f-2914-4d1e-a002-df30af772f3b)
   )
   (text "OMSDR Rev. 1.2" (at 19.05 26.67 0)
