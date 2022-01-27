@@ -1,4 +1,0 @@
-[submodule "tests/si5351-avr-tiny-minimal"]
-	path = tests/si5351-avr-tiny-minimal
-	url = https://github.com/etherkit/si5351-avr-tiny-minimal.git
-	branch = master
