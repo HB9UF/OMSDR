@@ -58,6 +58,11 @@ On power-up, the firmware cycles through the LEDs and initialized the local osci
 ```
 
 
+## Dimensions
+
+![2D render with dimensions](doc/2d_render_rev1.2.png)
+
+
 ## Software and License
 This board files were designed with KiCad 6. They are licensed under the CC-BY-SA license. More information on this license can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). The software is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
