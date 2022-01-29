@@ -15,7 +15,7 @@ The circuit stored in this repository is designed for the 40 meter amateur radio
 ## Key differences to Soft Rock Lite II
 This is not an exact copy of the design by Tony Parks. Instead, we opted for the following key differences:
 
-- You don't have to wind any magnetic components. We use SMD inductors in the frontend filter (which we redesigned somewhat) and we use an SMD transformer (CX2074NL) for the balun.
+- You don't have to wind any magnetic components. We use SMD inductors in the frontend filter (which we redesigned somewhat) and we use an SMD transformer (CX2147NL) for the balun.
 
 - The original design employs a common-collector Colpitts oscillator to generate the reference for the local oscillator. We replaced that with a Silabs si5351 clock generator for versatility.
 

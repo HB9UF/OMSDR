@@ -2008,6 +2008,11 @@
     (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
     (uuid 051b8cb0-ae77-4e09-98a7-bf2103319e66)
   )
+  (text "Overall turns ratio: 1:1\nTurns ratio to single secondary winding: 2:1"
+    (at 78.74 80.01 0)
+    (effects (font (size 1.2 1.2)) (justify left bottom))
+    (uuid 2e82f29d-28f0-45e1-9d34-7844354e92fe)
+  )
   (text "Design by Matt Weyland (HB9FRV)\n\nBased on work by Tony Parks\n(c) 2017,18,19,22 CC-BY-SA"
     (at 204.47 158.75 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
@@ -2227,14 +2232,14 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005a04a23a)
     (property "Reference" "T1" (id 0) (at 83.82 58.42 0))
-    (property "Value" "CX2074NL" (id 1) (at 83.82 74.93 0))
+    (property "Value" "CX2147NL" (id 1) (at 83.82 74.93 0))
     (property "Footprint" "local:CX2074" (id 2) (at 83.82 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 83.82 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "BOM" "DIST DIGIKEY  553-1655-ND" (id 4) (at 83.82 67.31 0)
+    (property "BOM" "DIST DIGIKEY 553-1501-ND" (id 4) (at 83.82 67.31 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid bf097d0c-a33c-4472-9084-ab26a6ae4ebc))
@@ -4146,7 +4151,7 @@
       (reference "SW2") (unit 1) (value "RIGHT") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/00000000-0000-0000-0000-00005a04a23a"
-      (reference "T1") (unit 1) (value "CX2074NL") (footprint "local:CX2074")
+      (reference "T1") (unit 1) (value "CX2147NL") (footprint "local:CX2074")
     )
     (path "/0bfea883-37c1-4f77-b14d-494b066fd38f"
       (reference "U1") (unit 1) (value "LT6231") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
